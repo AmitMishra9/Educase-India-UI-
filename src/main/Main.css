@@ -1,0 +1,60 @@
+.main_container {
+  float: left;
+  position: relative;
+  top: 50%; 
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.main_container  h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 28px;
+  color: #1D2226;
+  word-spacing: 0;
+  letter-spacing: 0;
+    line-height: 36px; 
+}
+
+.main_container span {
+  font-family: 'Rubik', sans-serif;
+  font-weight: Regular;
+  font-size: 18px;
+  color: #474f55;
+  letter-spacing: 1.px;
+  line-height: 1.20;
+  margin-bottom: 20px; /* Add margin between span and buttons */
+}
+
+.CreateAccount,
+.Login {
+  font-family: 'Rubik', sans-serif;
+ 
+  margin-top: 10px; /* Adjusted value for space between buttons */
+}
+
+.CreateAccount {
+  font-weight: 500;
+  color: #FFFFFF;
+  width: 90%;
+  background-color: #6C25FF;
+}
+
+ .Login {
+  width: 90%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1D2226;
+  background-color: #6C25FF4B;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+      font-size: 1.5em;
+  }
+
+  p {
+      font-size: 1em;
+  }
+}

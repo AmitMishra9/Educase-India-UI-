@@ -1,0 +1,107 @@
+
+.registration-form {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+fieldset {
+  background-color: rgb(245, 243, 243);
+    border-radius:5px;
+    padding:0px;
+    margin-bottom: 25px;
+  }
+
+legend {
+  background-color: rgb(245, 243, 243);
+  color: #6C25FF; 
+  padding: 0;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0; 
+  line-height: 17px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+
+input{
+  background-color: rgb(245, 243, 243);
+  font-family:'Rubik',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #919191;
+  margin: 1px 0;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  transition: border 0.3s;
+  letter-spacing:0; 
+  line-height:17px;
+ 
+}
+
+.radio_label {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #1D2226;
+  letter-spacing: 0; 
+  line-height: 17px;
+  
+}
+
+.radio-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.radio-input {
+  margin-right: 10px;  /* Adjust the margin as needed */
+}
+
+
+input[type="radio"] {
+  margin: 1px 5px 0 0; 
+  padding: 8px;
+  width: auto;
+  box-sizing: border-box;
+  border: none;
+  transition: border 0.3s;
+}
+input:focus {
+  outline: none;
+  border: none;
+}
+
+
+  button{
+    padding: 10px;
+    background-color:#007bff;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing:0; 
+    line-height: 17px;
+    font-family:'Rubik',sans-serif;
+}
+
+
+button:hover {
+  background-color: #ef28db;
+}
+
+@media screen and (max-width: 600px) {
+  .registration-form {
+      width: 90%;
+  }
+}

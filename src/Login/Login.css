@@ -1,0 +1,109 @@
+
+.login-form {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+  
+  }
+  
+ .login-form  h1 {
+    font-family:'Rubik',sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color:#1D2226;
+    letter-spacing:0; 
+    line-height: 26px;
+  }
+  
+  .login-form   p {
+    font-family:'Rubik',sans-serif;
+     font-weight: 400;
+     font-size: 18px;
+     color: #1D2226;
+     letter-spacing:0; 
+     line-height: 25px;
+  }
+  .back_button{
+      text-decoration: none;
+      font-size: 14px;
+      background-color: black;
+       color: #FFFFFF;
+      padding: 5px 15px;
+      float: right;
+      border-radius:5px;
+      box-shadow: 2px 4px 5px rgb(59, 14, 14);
+           &:hover{
+            background-color: #6C25FF;
+            box-shadow: 2px 4px 5px #6C25FF;
+ 
+           }
+    }
+  .login-form fieldset {
+    background-color: rgb(245, 243, 243);
+    border-radius:5px;
+    padding:0px;
+    margin-bottom: 35px;
+  }
+
+  fieldset:focus{
+    outline: none;
+    border: 1px solid violet;
+  }
+
+  
+  .login-form   legend {
+    background-color: rgb(245, 243, 243);
+    color: #6C25FF; 
+    padding: 0;
+    font-weight:400;
+    font-size: 13px;
+    letter-spacing:0; 
+    line-height:17px;
+  }
+  
+  .login-form  input{
+    background-color: rgb(245, 243, 243);
+    font-family:'Rubik',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #919191;
+    margin: 1px 0;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    transition: border 0.3s;
+    letter-spacing:0; 
+    line-height:17px;
+  }
+  
+  .login-form  input:focus {
+    outline: none;
+    border: none;
+  }
+  
+  .login-form  button{
+    padding: 10px;
+    background-color:#007bff;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing:0; 
+    line-height: 17px;
+    font-family:'Rubik',sans-serif;
+  }
+  
+  .login-form  button:hover {
+    background-color: #ec39a7;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .login-form {
+      width: 90%;
+    }
+  }
+  

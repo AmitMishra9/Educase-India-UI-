@@ -1,0 +1,99 @@
+.user-section {
+    width:80%;
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+   
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .heading {
+    display: flex;
+    align-items: center;
+    background-color: rgb(254, 254, 254);
+    padding: 5px;
+    max-width:100%;
+  }
+
+  .data{
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .dropdown {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-icon {
+    font-size: 20px;
+  }
+  
+  .logout {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .logout-icon {
+    margin-left: 10px;
+    font-size:10 px;
+    float:right;
+  }
+  .link{
+    text-decoration: none;
+    padding: 5px;
+      &:hover{
+        color: greenyellow; 
+         
+      }
+  }
+  
+  .profile-info {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+  }
+  
+  .userimg{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  .upload-image {
+    position: relative;
+    left:-18%;
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+  
+  .icon-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info-icon {
+    margin-right: 5px;
+  }
+  
+  .description {
+    margin-top: 10px;
+    max-width: 100%;
+   
+  }
+  
